@@ -13,6 +13,7 @@ function App() {
         <LigneMotus />
         <LigneMotus />
         <LigneMotus />
+        <LigneMotus />
       </div>
     </>
   );

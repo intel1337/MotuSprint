@@ -2,22 +2,32 @@ const LigneMotus = () => {
   return (
     <div className="ligne">
       <div className="letter1">
-        <h1 id="ltr1">M</h1>
+        <span>
+          <input maxlength="1" id="case1" type="text" />
+        </span>
       </div>
       <div className="letter1">
-        <h1 id="ltr2">O</h1>
-      </div>
-
-      <div className="letter1">
-        <h1 id="ltr3">T</h1>
-      </div>
-
-      <div className="letter1">
-        <h1 id="ltr4">U</h1>
+        <span>
+          <input maxlength="1" id="case2" type="text" />
+        </span>
       </div>
 
       <div className="letter1">
-        <h1 id="ltr5">S</h1>
+        <span>
+          <input maxlength="1" id="case3" type="text" />
+        </span>
+      </div>
+
+      <div className="letter1">
+        <span>
+          <input maxlength="1" id="case4" type="text" />
+        </span>
+      </div>
+
+      <div className="letter1">
+        <span>
+          <input maxlength="1" id="case5" type="text" />
+        </span>
       </div>
     </div>
   );
